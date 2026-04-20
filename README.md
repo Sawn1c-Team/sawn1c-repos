@@ -1,4 +1,8 @@
 # Package Upload
+> [!IMPORTANT]  
+> This is NOT for windows, and I will not be making a windows version, I will support third-party options, but never-the-less, I will not be making this for windows.
+
+
 Include a package.toml in your folder like this: authorname/packagename. Include your package.toml. your binary tar.xz, and your source tar.xz (both are required, I will consider making the build &/or the binary optional) and include your sha256 verification, and your opengpg key! This below is a toml example, use it for yours:
 
 ```
@@ -17,3 +21,5 @@ sha256       = "(filename of the sha256 key for binaries/source .tar.xz to prove
 [binaries]
 binary_mirror=["binary.mirror.link", "another.binary.mirror.link"]
 ```
+
+
