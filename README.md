@@ -23,3 +23,4 @@ binary_mirror=["binary.mirror.link", "another.binary.mirror.link"]
 ```
 
 
+Compile & configure will run the commands you set it too, I will add toml scanning, do not add malware to my package repos
